@@ -1,4 +1,4 @@
-<img src='https://raw.githubusercontent.com/pedro-ramirez-suarez/rawtemplate/master/rawlogo1.png' style='width:200px'/> 
+<img src='https://raw.githubusercontent.com/pedro-ramirez-suarez/rawtemplate/master/rawlogo1.png' style='heigth:200px'/> 
 ## Rapid Application Wireframe
 
 ### Approach
