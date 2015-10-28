@@ -72,7 +72,7 @@ end
 
 desc "Show help"
 task :help do
-  sh "start help\\help.html"
+  sh "start help\\index.html"
 end
 
 desc "run nspec tests"
