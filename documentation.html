@@ -21,6 +21,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
+          <a class="navbar-brand" href="index.html" style="margin-top:-23px"><img src="images/RAWlogo3.png" style="border:none;"/></a>
           <a class="navbar-brand" href="index.html">RAW Framework</a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -83,7 +84,7 @@
                 going to be located and run the following command
                 <br>
                 <br>
-                <code>warmup&nbsp;https://github.com/pedro-ramirez-suarez/MVCScaffold scaff</code>
+                <code>rawinit&nbsp;https://github.com/pedro-ramirez-suarez/rawtemplate scaff</code>
                 <br>
                 <br>In this case "scaff" is the name of your solution, remember that by default
                 the application is going to look for a database named
@@ -93,8 +94,8 @@
                 <br>Type the following commands in the DOS shell:</p>
               <code>cd scaff
                 <br>start scaff.sln
-                <br>rake
-                <br>rake server
+                <br>rawf
+                <br>rawf server
                 <br>sidekick
                 <br>
               </code>
@@ -102,11 +103,11 @@
               <p>Open a second command promopt and navigate to the folder where your solution
                 is located so you can start scaffolding your app. Type the following to
                 generate the model for the Address table:</p>
-              <code>rake gen:model[Address]</code>
+              <code>rawf gen:model[Address]</code>
               <p draggable="true">An Address class will be added to your web project, and your project has
                 been automatically built, the next step is to generate some repositories,
                 controllers and UI, type the following in the command line:</p>
-              <code>rake gen:crudFor[Address]</code>
+              <code>rawf gen:crudFor[Address]</code>
               <p>You will see something like this:</p>
               <img src="images/demo1.png" class="img-responsive">
               <p>
@@ -137,7 +138,7 @@
                   like Load and Save.
                   <br>To generate code for view models, it's exactly the same as for normal
                   entities, type the following in the console:</p>
-                <code>rake gen:crudFor[UserViewModel]</code>
+                <code>rawf gen:crudFor[UserViewModel]</code>
                 <p>You will see something like this:</p>
                 <img src="images/demo4.png" class="img-responsive">
                 <p contenteditable="true">
