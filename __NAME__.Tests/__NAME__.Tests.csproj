@@ -46,8 +46,9 @@
       <HintPath>..\packages\Needletail.DataAccess.1.1.2\lib\net451\Needletail.DataAccess.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NSpec">
-      <HintPath>..\packages\nspec.0.9.68\lib\NSpec.dll</HintPath>
+    <Reference Include="NSpec, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\nspec.1.0.1\lib\NSpec.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
