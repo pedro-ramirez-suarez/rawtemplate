@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Needletail.DataAccess;
 using __NAME__.Models;
 
+
 namespace __NAME__.Repositories
 {
     //Add Bussiness logic here
@@ -185,6 +186,11 @@ namespace __NAME__.Repositories
         public IEnumerable<T> ExecuteStoredProcedureReturnRows<T>(string name, object parameters)
         {
             return this.ExecuteStoredProcedureReturnRows<T>(name, parameters);
+        }
+
+        public IEnumerable<Needletail.DataAccess.Entities.DynamicEntity> ExecuteStoredProcedureReturnDynaimcRows(string name, object parameters)
+        {
+            return this.ExecuteStoredProcedureReturnDynaimcRows(name, parameters);
         }
     }
 }

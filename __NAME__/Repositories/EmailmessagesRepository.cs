@@ -185,5 +185,11 @@ namespace __NAME__.DataAccess.Repositories
         {
             return this.ExecuteStoredProcedureReturnRows<T>(name, parameters);
         }
+
+
+        public IEnumerable<DynamicEntity> ExecuteStoredProcedureReturnDynaimcRows(string name, object parameters)
+        {
+            return this.ExecuteStoredProcedureReturnDynaimcRows(name, parameters);
+        }
     }
 }

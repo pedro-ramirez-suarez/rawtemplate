@@ -184,6 +184,11 @@ namespace #{@solution_name_sans_extension}.Repositories
         {
             return this.ExecuteStoredProcedureReturnRows<T>(name, parameters);
         }
+        
+        public IEnumerable<Needletail.DataAccess.Entities.DynamicEntity> ExecuteStoredProcedureReturnDynaimcRows(string name, object parameters)
+        {
+            return this.ExecuteStoredProcedureReturnDynaimcRows(name, parameters);
+        }
 
         public void Dispose()
         {

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Needletail.DataAccess;
 using __NAME__.Models;
+using Needletail.DataAccess.Entities;
 
 namespace __NAME__.Repositories
 {
@@ -185,6 +186,11 @@ namespace __NAME__.Repositories
         public IEnumerable<T> ExecuteStoredProcedureReturnRows<T>(string name, object parameters)
         {
             return this.ExecuteStoredProcedureReturnRows<T>(name, parameters);
+        }
+
+        public IEnumerable<DynamicEntity> ExecuteStoredProcedureReturnDynaimcRows(string name, object parameters)
+        {
+            return this.ExecuteStoredProcedureReturnDynaimcRows(name, parameters);
         }
     }
 }
